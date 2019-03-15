@@ -1,0 +1,7 @@
+addo;MB;asdas;mascard
+mr;MB;asdas;visa
+tur;MB;asdas;visa
+Twet;MC;54687999999;visa
+Twettttty;MD;54687998754536633;mascard
+Twet555555;MD;54687998754536633;visa
+Hregdfg;MA;asdas;visa

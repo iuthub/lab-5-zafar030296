@@ -15,25 +15,59 @@
 		<hr />
 		
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
+<!-- 		<form>
+			<label>Name<input type="text" name="name"></label>
+			<label>
+				<select name="section">
+				    <option value="MA">MA</option>
+				    <option value="MB">MB</option>
+				    <option value="MC">MC</option>
+				    <option value="MD">MD</option>
+				    <option value="ME">ME</option>
+				    <option value="MF">MF</option>
+				    <option value="MG">MG</option>
+				    <option value="MH">MH</option>
+  				</select>
+			</label>
+			<label>Credit Card<input type="text" name="credit_card"></label>
+			<label><input type="radio" name="credit_type" value="visa">Visa</label>
+			<label><input type="radio" name="credit_type" value="mascard">MasterCard</label>
+		</form> -->
+		<form action="sucker.php" method="post">
+			<dl>
+				<dt>Name</dt>
+				<dd>
+					<input type="text" name="name">
+				</dd>
+				
+				<dt>Section</dt>
+				<dd>
+					<select name="section">
+					    <option value="MA">MA</option>
+					    <option value="MB">MB</option>
+					    <option value="MC">MC</option>
+					    <option value="MD">MD</option>
+					    <option value="ME">ME</option>
+					    <option value="MF">MF</option>
+					    <option value="MG">MG</option>
+					    <option value="MH">MH</option>
+	  				</select>
+				</dd>
+				
+				<dt>Credit Card</dt>
+				<dd>
+					<input type="text" name="credit_card">
+				</dd>
+				<dd>
+					<label><input type="radio" name="credit_type" value="visa">Visa</label>
+					<label><input type="radio" name="credit_type" value="mascard">MasterCard</label>
+				</dd>
+			</dl>
+			<div>
+				<input type="submit" name="submit" value="I am a giant sucker">
+			</div>
+		</form>
 		
-		<div>
-			I am a giant sucker.
-		</div>
+
 	</body>
 </html>
