@@ -4,7 +4,7 @@ In this exercises, you should make a form which takes payment information from s
 
 
 ### Student Details:
+- **Student ID**: u1610254  
+- **Student Name**: Zafar Ubaydullaev
+- **Section Number**: 003
 
-- **Student ID**: your student id
-- **Student Name**: your name
-- **Section Number**: your section number
